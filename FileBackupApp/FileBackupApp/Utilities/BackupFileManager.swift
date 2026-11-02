@@ -30,5 +30,5 @@ enum BackupFileManager {
         return archive
     }
 
-    static let supportedTypes: [UTType] = [.html, .ttf]
+    static let supportedTypes: [UTType] = [.html, UTType(filenameExtension: "ttf")!]
 }
