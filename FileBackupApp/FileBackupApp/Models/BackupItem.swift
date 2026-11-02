@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 
 /// 备份文件的类型
 enum BackupItemKind: String, Codable, CaseIterable {
