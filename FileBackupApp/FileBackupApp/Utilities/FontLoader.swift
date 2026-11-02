@@ -1,5 +1,6 @@
 import CoreText
 import Foundation
+import SwiftUI
 
 /// 动态注册 TTF 字体文件并返回其 PostScript 名称，供 SwiftUI 预览使用
 enum FontLoader {
